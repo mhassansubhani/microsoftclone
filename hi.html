@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com">   </script> 
   </head>
   <body>
-    <div class="navbar flex justify-between items-center p-2">
+    <div class="navbar flex justify-between items-center p-2 pt-3">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger p-1 md:hidden">
           <div class="line w-4 h-0.5 my-0.5 bg-black"></div>
@@ -18,9 +18,11 @@
         <div class="searchicon md:hidden">Search</div>
       </div>
       <div class="logo flex md:order-1">
-        <div>Mircosoft</div>
+        <div class="img-div">
+          <img src="mslogo.png" class=" h-6 md:ml-16 md:mb-2 md:h-5" alt="">
+        </div>
     
-    <div class="features hidden  md:flex absolute top-14 left-0  md:static mx-4 space-x-2  w-fit bg-gray-200 md:bg-white">
+    <div class="features hidden  md:flex absolute top-14 left-0  md:static mx-4 space-x-2  w-fit bg-gray-200 md:bg-white md:text-[11px] md:mt-1 md:ml-[26px] ">
         <div> Mircosoft 365</div>
         <div> Office</div>
         <div> Windows</div>
@@ -31,38 +33,82 @@
     </div>
 
       <div class="cart md:order-3 flex space-x-3">
-        <div class="searchicon hidden md:block">Search</div>
+        <label> Search</label>
+        <div class="searchicon hidden md:block">
+         
+          <img src="s2.png" class="w-6 cursor-pointer" alt="">
+        </div>
 
-        <div class="cartnaccount">cart acccount</div>
+        <div class="cartnaccount">Cart </div>
+        <img src="c1.png" class="w-6 cursor-pointer" alt="">
+        <div> Sign in</div>
+        <img src="sign.png" class="w-6 cursor-pointer" alt="">
       </div>
+     
     </div>
-  
-<div class="md:bg-[#b2d6fa] h-64 p-2">
-    <div class="second-con  flex flex-col-reverse md:flex-row px-1  mt-2 h-fit md:mt-10">
-        <div class="msg-con text-blue-400  bg-white-200 h-60  shadow-md  bg-white  md:bg-[#b2d6fa]  md:h-52 md:shadow-none md:mx-10"> 
-            <div class="parasec mx-4 my-3  md:text-black md:opacity-100 md:text-xs md:mt-18  "> 
-            <div class="font-semibold md:text-xl ">
+   <!-- 2nd conc -->
+
+   
+<div class="md:bg-[#b2d6fa] h-[450px] p-2 mx-1 shadow-lg md:mt-1">
+    <div class="second-con  flex flex-col-reverse md:flex-row px-1  mt-2 h-fit md:mt-10 md:justify-center items-center">
+        <div class="msg-con text-blue-400  bg-white-200 h-60  shadow-md  bg-white  md:bg-[#b2d6fa]  md:h-52 md:shadow-none md:mx-10 md:mt-20"> 
+            <div class="parasec mx-4 my-3  md:text-black md:opacity-100 md:text-xs md:mt-18 md:mr-32 "> 
+            <div class="font-semibold md:text-[30px] ">
                 Microsoft 365
 
         </div>
-        <div class="text-lg w-full md:text-[10px] md:w-[300px] ">
+        <div class="text-lg w-full md:text-[15px] md:w-[440px] md:mt-7">
             Turn your ideas into reality, stay safer online and off, and focus on what matters most with Microsoft 365 apps
 
     </div>
 </div>
     <div class="button-sec  flex mx-4 space-x-2 mt-7"> 
-<div class="btn1 bg-blue-800 p-1 text-white  text-sm rounded-sm "> For one person</div>
-<div class="btn1 bg-white p-1 text-blue-800 text-sm font-semibold rounded-sm md:bg-[#b2d6fa] md:text-black"> For upto six people</div>
+<div class="btn1 bg-blue-800 p-1 text-white  text-sm rounded-sm md:p-1.5 "> For one person</div>
+<div class="btn1 bg-white p-1 text-blue-800 text-sm font-semibold rounded-sm md:bg-[#b2d6fa] md:text-black md:p-1.5 "> For upto six people</div>
 
         
     </div>
     </div> 
 
-   <div class="img-con mix-blend-multiply flex justify-center items-center md:-mt-16 "> <img src="xsy.png" alt=""> </div>
+   <div class="img-con mix-blend-multiply flex  "> <img src="xsy.png" alt=""> </div>
 
     </div>
 </div>
-   
+
+
+   <!-- 3rd container -->
+   <div class="3rd con grid grid-cols-2 md:grid-cols-4 mt-12 ml-10 space-x-5 mb-20 space-y-1">
+
+    <div class="flex flex-col "> <div class="imgdiv"> <img src="lap1.jpeg" class="md:h-[196px] h-[196px]" ></div> 
+      <div class="font-semibold mt-6 text-xl"> Designed for life today - and tomorrow</div>
+      <div class=" mt-2">The next-generation of games. Your goals. Friends and family. </div>
+    </div>
+    <div class="flex flex-col "> <div class="imgdiv"> <img src="pic2.jpeg" class="h-[196px]" alt=""></div> 
+    <div class="font-semibold mt-2 text-xl"> Microsoft Edge</div>
+      <div class=" mt-2">World-class performance with more privacy, more productivity and more value while you browse.</div>
+  </div>
+  <div class="flex flex-col "> <div class="imgdiv"> <img src="pic3.jpeg" class="h-[196px]"  alt=""></div> 
+      <div class="font-semibold mt-2 text-xl"> Microsoft OneDrive</div>
+      <div class=" mt-2">Save your files and photos to OneDrive and access them from any device, anywhere.</div>
+    </div>
+    <div class="flex flex-col "> <div class="imgdiv"> <img src="pic4.jpeg" class="h-[196px]" alt=""></div> 
+    <div class="font-semibold mt-2 text-xl"> OneNote</div>
+      <div class=" mt-2">Organise your notes and your life.</div>
+  </div>
+   </div>
+ <!-- 4th container -->
+<div class="dad4  md:bg-[#e7e7e7] md:h-[400px]"> 
+<div class= "fourth-con mb-32 mt-20 flex flex-col-reverse md:flex-row "> 
+  <div class="mesg-con flex flex-col ml-3.5 -mt-5   text-black h-40  shadow-xl justify-center md:bg-[#e7e7e7] md:h-fit  md:w-[930px] md:mt-16 md:ml-[300px] md:shadow-none "> 
+
+
+    <div class="font-semibold -mt-3 md:mt-0 text-xl ml-3"> Outlook for iOS and Android</div>
+    <div class="mt-2 ml-3">Connect. Organise. Get things done. </div>
+    <div class="btn mt-4 ml-3 bg-blue-800 w-fit text-white rounded-sm p-1 font-semibold">Download now</div>
+  </div> 
+<div class="img-shiz p-3 cursor-pointer"> <img src="pic5.jpeg " class=" md:w-full " alt=""> </div>
+</div>
+</div>
   </body>
 </html>
 <!-- asdfadaf -->
